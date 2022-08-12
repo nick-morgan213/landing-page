@@ -61,7 +61,7 @@ a {
     font-weight:bolder;
     color: #F9FAF8;
 }
-button{
+.button{
     background-color:#3882F6;
     border-radius: 15px;
     padding: 5px;
@@ -80,6 +80,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .information{
     font-size: 36px;
@@ -96,6 +97,7 @@ button{
     height: 200px;
     border: solid #3882F6;
     border-radius: 15px;
+    
 }
 .subtext{
     display:flex;
@@ -107,6 +109,66 @@ button{
     width: 200px;
     flex-wrap: wrap;
     font-size: 18px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.quote{
+    width:800px;
+    font-size: 36px;
+    color:#1F2937;
+    font-style:italic;
+}
+.Thor{
+    font-weight:bold;
+    font-size: 18px;
+    align-self: flex-end;
+    width:800px;
+}
+.four{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    padding: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.time{
+    font-size: 18px;
+    font-weight: bold;
+}
+.product{
+    color:#E5E7EB;
+}
+.call{
+    display:flex;
+    flex-direction:column;
+}
+.action{
+    display:flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-color: #E5E7EB;
+    align-self:center;
+    width: 100px;
+    font-size: 18px;
+}
+.up{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
 }
 .footer{
     display:flex;
